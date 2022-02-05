@@ -1,0 +1,23 @@
+{
+  "name": "spotifybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^10.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "request": "^2.88.2",
+    "spotify-dl": "^1.0.5",
+    "spotifydl-core": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start",
+    "serve": "npm start",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
